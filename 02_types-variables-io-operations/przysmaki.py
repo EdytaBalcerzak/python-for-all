@@ -1,0 +1,5 @@
+print("Czy masz jakies ulubione przysmaki? Jesli tak...")
+przysmak_1 = input("Jaki jest pierwszy?")
+przysmak_2 = input("A jaki jest Twoj drugi ulubiony przysmak?")
+print(przysmak_1 + przysmak_2)
+input("nacisnij Enter aby zakonczyc program")
