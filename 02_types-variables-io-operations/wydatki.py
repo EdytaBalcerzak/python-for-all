@@ -11,6 +11,7 @@ pho = int(input("\n\t\t\tTelefon: "))
 
 total = (dol - (cosm + food + tick + pho))
 
+
 print("\n\t\t\tLaczna suma: ", total)
 
 input("\n\n\n\t\t\taby wyjsc nacisnij Enter")
