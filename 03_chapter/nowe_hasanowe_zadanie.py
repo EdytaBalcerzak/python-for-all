@@ -17,4 +17,4 @@ print("Współrzędne wirzchołka funkcji kwadratowej:")
 print("(x0,y0)=(", x, ",", y ,")")
 input("aby zakonczyc program, nacisnij Enter")
 
-#proszę to po lewej sielone pokazuje nowe linijki kodu
+#proszę to po lewej sielone pokazuje nowe linijki kodu uciekam
