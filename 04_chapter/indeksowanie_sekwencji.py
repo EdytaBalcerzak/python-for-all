@@ -1,14 +1,17 @@
 #program wybiera losowo pozycje w lancuchu
 #prezentuje dostep swobodny do elementu sekwencji
 
-slowo = "kalkulator"
 import random
-print("Losowe indeksowanie lancucha znakow")
-print("\n\nWartosc zmiennej slowo to: ", slowo, "\n\n")
-wysoko = len(slowo)
-nisko = -len(slowo)
-
+slowo = "kwiat"
+print("wartosc zmiennej 'slowo',to", slowo)
+dodac = len(slowo)
+odjac = -len(slowo)
 for i in range(10):
-    pozycja = random.randrange(wysoko, nisko)
-    print("word[", pozycja, "] :", slowo[pozycja])
-input("Aby zakonczyc program , nacisnij Enter")
+    pozycja = random.randrange(odjac, dodac)
+    print("slowo [", pozycja,"]\t", slowo[pozycja])
+# print(slowo[4])
+# print(slowo[2])
+# print(slowo[-1])
+# print(slowo[-5])
+
+input("Aby zakonczyc , nacisnij Enter")
