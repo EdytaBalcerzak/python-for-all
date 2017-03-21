@@ -22,11 +22,11 @@ while wybor != 0:
        print("Najlepsze wyniki:")
        for wynik in wyniki:
            print(wynik)
-#dodawanie wyniku
+    #dodawanie wyniku
     elif wybor == 2:
        wynik_gracza = int(input("Podaj swój wynik: "))
        wyniki.append(wynik_gracza)
-#usuwanie wyniku
+    #usuwanie wyniku
     elif wybor == 3:
         wynik_gracza = int(input("Który wynik usunąć? "))
         if wynik_gracza in wyniki:
