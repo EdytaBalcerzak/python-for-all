@@ -1,6 +1,6 @@
 #tworzenie słowników
 zargon = {
-"Lifehuck": "ogólna nazwa sposobów i trików używanych do ułatwiania" +
+"Lifehack": "ogólna nazwa sposobów i trików używanych do ułatwiania" +
 " sobie życia. W szczególności są to pomysły programistów, którzy próbują " +
 "przenosić idee i koncepcje informatyczne na codzienne życie",
 
@@ -69,8 +69,9 @@ while wybor != 0:
             print("Nie ma takiego hasla w słowniku")
     #pokazanie wszystkich hasel w słowniku
     elif wybor == 5:
-        for terminy in zargon:
-            print("\n", terminy)
+        # for terminy in zargon:
+        #     print("\n", terminy)
+        print(zargon.keys())
     else:
         print("Niestety,",  wybor, " to nieprawidłowy wybór")
 
