@@ -38,7 +38,8 @@ while wybor != 0:
                 ilosc_punktow = int(input("\nPodaj ilość punktów , którą chcesz przyznać atrybutowi: "))
                 punkty -= ilosc_punktow
                 if punkty >= 0:
-                    atrybuty[wybor_atrybutu] = ilosc_punktow
+                    atrybuty[wybor_atrybutu] += ilosc_punktow
+                    
                 else:
                     punkty += ilosc_punktow
                     print("\nMasz zbyt mala ilosc punktow")
