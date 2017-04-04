@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 #korzystanie z metod listy
 #Program do tworzenia i utrzymywania listy najlepszych wynikow uzyskanych w grze komputerowej
 wyniki = []
